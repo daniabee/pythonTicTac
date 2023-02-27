@@ -26,6 +26,8 @@ while True:
       print("Scissors cuts papper! You win!")
     else:
       print("Rock smashes scissors! You lose.")
+  else:
+    print("You did not choose a valid option! Would you like to...")
 
   play_again = input("Play again? (y/n): ")
   if play_again.lower() != "y":
